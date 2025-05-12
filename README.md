@@ -1,0 +1,11 @@
+-Subway Passenger Counter
+  --use main Dom and intractive
+  --Use localStorge and some style
+-----
+-Blackjack Casino Game
+  --use finction and how it works
+  --use main dom and create some element
+----
+-Chrome Extension
+  --how the Chrome Extension work   
+  -- work with loaclStorage
