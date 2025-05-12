@@ -1,0 +1,81 @@
+/* Set the background image for the container and center it on the page */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Fallback background color */
+  font-family: "Arial", sans-serif;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.container {
+  width: 80%;
+  max-width: 600px;
+  height: 400px;
+  background-image: url("station.jpg"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border: 5px solid black; /* White border */
+  border-radius: 20px;
+}
+/* Set the font style for the text inside the container */
+h1 {
+  color: black;
+  margin-top: 30px;
+    margin: 40px 10px 0 auto;
+      font-size: 15px;
+}
+/* Set the font style for the text inside the container */
+h2 {
+  color: black;
+  margin-top: 20px;
+  font-size: 2.5em;
+}
+h3 {
+    color: black;
+    margin-top: 50px;
+    font-size: 20px;
+}
+/* Set the font style for the text inside the container */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  justify-content: center;
+  margin-top: 20px;
+}
+/* Style the buttons */
+button {
+  background-color: rgb(223, 119, 119); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+/* Change the background color on hover */
+button:hover {
+  background-color: rgb(255, 0, 0); /* Darker green */
+  color: white;
+  transform: scale(1.1);
+}
